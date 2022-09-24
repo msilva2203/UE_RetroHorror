@@ -12,9 +12,9 @@ public class UE_RetroHorror : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-		PublicIncludePaths.Add("C:\\dev\\Game Projects\\Retro Horror Game\\UE_RetroHorror\\Source\\UE_RetroHorror\\discord-files\\");
+		PublicIncludePaths.Add("$(ProjectDir)\\Source\\UE_RetroHorror\\discord-files\\");
 
-		PublicAdditionalLibraries.Add("C:\\dev\\Game Projects\\Retro Horror Game\\UE_RetroHorror\\Binaries\\Win64\\discord_game_sdk.dll.lib");
+		PublicAdditionalLibraries.Add("$(ProjectDir)\\Binaries\\Win64\\discord_game_sdk.dll.lib");
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
