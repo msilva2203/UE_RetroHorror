@@ -12,10 +12,6 @@ public class UE_RetroHorror : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-		PublicIncludePaths.Add("$(ProjectDir)\\Source\\UE_RetroHorror\\discord-files\\");
-
-		PublicAdditionalLibraries.Add("$(ProjectDir)\\Binaries\\Win64\\discord_game_sdk.dll.lib");
-
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
