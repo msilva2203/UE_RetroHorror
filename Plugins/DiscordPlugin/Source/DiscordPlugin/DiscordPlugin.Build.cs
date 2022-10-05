@@ -11,8 +11,8 @@ public class DiscordPlugin : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"$(PluginDir)/Source/DiscordPlugin/Public",
-				"$(PluginDir)/Source/DiscordPlugin/Public/discord-files"
+				"$(PluginDir)\\Source\\DiscordPlugin\\Public",
+				"$(PluginDir)\\Source\\DiscordPlugin\\Public\\discord-files"
 				// ... add public include paths required here ...
 			}
 			);

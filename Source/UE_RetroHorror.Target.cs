@@ -7,7 +7,6 @@ public class UE_RetroHorrorTarget : TargetRules
 {
 	public UE_RetroHorrorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "UE_RetroHorror" } );
